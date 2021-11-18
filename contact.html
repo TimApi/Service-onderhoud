@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Onderhoud Peter Jansen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/stylesheet2.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+            <a class="navbar-brand" href="/">
+                <div class="logo-image">
+                      <img src="img/logo-test.png" class="img-fluid">
+                </div>
+          </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-links">Home</a></li>
+                <li><a href="index.html" class="nav-links">Diensten</a></li>
+                <li><a href="projecten.html" class="nav-links">Projecten</a></li>
+                <li><a href="over_ons.html" class="nav-links">Over ons</a></li>
+                <li><a href="contact.html" class="nav-links">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+<section class="intro-contact">
+    <div class="text-box">
+        <h1>Contact</h1>
+        <p>Neem contact met ons op</p>
+    </div>
+</section>
+<!---Icons section-->
+
+<section class="contact-info">
+    <div class="row">
+<div class="contact-col">
+    <span><i class = "fas fa-mobile-alt"></i></span>
+    <span>Telefoon</span>
+    <span class="contact-text">	0317 350041</span>
+    </div>
+    <div class="contact-col">
+        <span><i class = "fas fa-envelope-open"></i></span>
+        <span>E-mail</span>
+        <span class="contact-text">info@sopjansen.nl</span>
+        </div>
+        <div class="contact-col">
+            <span><i class = "fas fa-map-marker-alt"></i></span>
+            <span>Locatie</span>
+            <span class="contact-text">Komkleiland 21e</span>
+            </div>
+            <div class="contact-col">
+                <span><i class = "fas fa-briefcase"></i></span>
+                <span>Kamer van Koophandel</span>
+                <span class="contact-text">09093241</span>
+                </div>
+    </div>
+</section>
+
+<!--- Contact-->
+<section class="iframe-section">
+    <div class="iframe-res">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d614.8961668721234!2d5.758928729249351!3d51.94152889873179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7a968565371f1%3A0xeb41b9120ba73fe6!2sKomkleiland%2019%2C%206666%20ME%20Heteren!5e0!3m2!1snl!2snl!4v1636110539134!5m2!1snl!2snl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</section>
+
+<section class="contact-form-section">
+    <div class="container-contact">
+        <h1>Contact the team!</h1>
+        <p>Wil je in contact komen met ons? Stuur ons dan een mailtje.</p>
+
+        <form action="https://formspree.io/f/xeqvypqr" method="POST">
+            <div class="form-group">
+                <label for="firstname">Voornaam*</label>
+                <input 
+                    type="text" 
+                    name="firstname" 
+                    id="firstname" 
+                    required 
+                    class="form-element"
+                    placeholder="Peter" />
+            </div>
+            <div class="form-group">
+                <label for="lastname">Achternaam*</label>
+                <input type="text" name="lastname" id="lastname" required class="form-element" placeholder="Jansen" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required class="form-element" placeholder="peterjansen@example.com" />
+            </div>
+            <div class="form-group">
+                <label for="Telefoonnummer">Telefoonnummer</label>
+                <input type="text" name="company" id="Telefoonnummer" class="form-element" placeholder="uw nummer" />
+            </div>
+            <div class="form-group-full">
+                <label for="bericht">Bericht</label>
+                <textarea name="bericht" id="message" class="form-element" placeholder="Waarmee kunnen wij uw helpen"></textarea>
+            </div>
+            <div class="submit-group">
+                <input type="submit" value="STUUR BERICHT" />
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+        <li><a target="_blank" rel="noopener noreferrer"href="https://www.facebook.com/profile.php?id=1633077131"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a target="_blank" rel="noopener noreferrer"href="https://www.instagram.com/sopjansen/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://nl.linkedin.com/in/peter-jansen-544a93127"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Diensten</a></li>
+        <li><a href="projecten.html">Projecten</a></li>
+        <li><a href="over_ons.html">Over ons</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p>&copy Service & onderhoud Peter Jansen</p> 
+</section>
+
+<script defer src="./js/script.js"></script>
+</body>
+</html>
